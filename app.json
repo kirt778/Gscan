@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "GScan",
+    "slug": "gscan",
+    "scheme": "gscan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kirtan.gscan"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.kirtan.gscan",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image-picker"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b401389e-0ac3-4767-9e8e-08a80a9cc4a7"
+      }
+    }
+  }
+}
